@@ -1,0 +1,85 @@
+.topbar-container{
+    height: 40px;
+    width: 100%;
+    background-color: #A5B7CF;
+    display: flex; 
+    /* overflow: hidden; */
+    align-items: center;
+    position: relative;
+    top: 0;
+    z-index: 999;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.topbar-left{
+    display: flex;
+    /* float: left; */
+    /* flex: 1; */
+}
+
+.topbar-left-button{
+    margin-left: 8px;
+    /* margin-top: 7px; */
+    align-items: center;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #143F7A;
+    font-family: 'Roboto', sans-serif;
+    padding: 6px 18px 6px 18px;
+    cursor: pointer;
+    border: none;
+}
+
+.topbar-left-button.disable{
+    margin-left: 8px;
+    /* margin-top: 7px; */
+    align-items: center;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #143F7A;
+    font-family: 'Roboto', sans-serif;
+    padding: 6px 18px 6px 18px;
+    /* cursor: pointer; */
+    border: none;
+    background-color: #ccc;
+}
+
+.topbar-left-button.hoverable:hover{
+    background-color: #143F7A;
+    color: #ffffff;
+    transition: 0.5s;
+    
+}
+
+.topbar-right{
+    display: flex;
+    /* float: right; */
+    /* flex: 3; */
+}
+
+.topbar-right-button{
+    margin-right: 9px;
+    /* margin-top: 12px; */
+    align-items: center;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px 20px;
+    border: none;
+    z-index: 999;
+    position: relative;
+    cursor: pointer;
+}
+
+.react-datepicker__input-container{
+    margin-right: 9px;
+}
+
+.download-button{
+    margin-left:9px;
+    /* background-color: #ccc; */
+}

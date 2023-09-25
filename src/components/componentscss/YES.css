@@ -1,0 +1,21 @@
+button.yes {
+    padding: 5px 10px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 16px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.25) ;
+    transition: all 0.2s ease;
+  }
+
+button.yes {
+    background-color: #85CB9F;
+    color: white;
+  }
+
+button.yes:hover{
+    background-color:  #1F924A;
+}  

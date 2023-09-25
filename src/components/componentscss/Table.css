@@ -1,0 +1,76 @@
+.table-container{
+    margin-top: 10px;
+    box-sizing: border-box;
+    /* overflow-y: scroll; */
+}
+
+/* ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+  } */
+
+.table{
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.table td,.table th{
+    padding: 12px 22px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #143F7A;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.table th{
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #143F7A;
+}
+
+.table tbody tr:nth-child(odd){
+    background-color: #F1F4F9;
+}
+
+.verify-buttons{
+    display: flex;
+    gap: 10px;
+}
+
+/*responsive*/
+
+@media(max-width: 500px){
+    .table thead{
+        display: none;
+    }
+    .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+    }
+    .table tr{
+        margin-bottom: 15px;
+    }
+
+    .table td{
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+}

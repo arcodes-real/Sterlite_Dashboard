@@ -1,0 +1,107 @@
+.dashboard-right {
+    height: 100vh;
+    width:84vw;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dashboard-right-top {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-top:3em;
+    padding-bottom: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.dashboard-title-right {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+/* .dashboard-right-subtitle{
+    font-weight: 300;
+    color:rgb(199, 199, 199);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+} */
+
+.dashboard-title-right-span {
+    font-weight: bold; 
+    font-size: x-large;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #143f7a;
+    
+}
+
+.dashboard-title-end {
+    display: flex;
+    width:8%;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dashboard-right-icon-btn {
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    outline: none;
+    border: none;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    
+
+}
+
+.icon-right {
+    height: 24px;
+    width: 24px;
+    color:black;
+    
+}
+.dashboard-right-icon-btn:hover .icon-right{
+    color:rgb(122, 122, 122);
+}
+.profile {
+    height: 30px;
+    width: 30px;
+    
+    color:black;
+    
+}
+.profile:hover{
+    color:rgb(161, 161, 161);
+}
+.dashboard-right-main{
+    height:100%;
+    background-color: #E4EBF3;
+    width:81.5vw;
+    padding:1rem;
+    /* padding-top:2rem; */
+    /* margin-top:0.3rem; */
+    overflow-y: scroll;
+}
+
+/* .table-y-scroll{
+    overflow-y: scroll;
+} */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+  }

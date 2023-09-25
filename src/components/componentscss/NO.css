@@ -1,0 +1,59 @@
+button.no {
+    padding: 5.7px 13.5px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 16px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.25) ;
+    transition: all 0.2s ease;
+  }
+
+button.no {
+    background-color: #F7BABA;
+    color: white;
+  }
+
+button.no:hover{
+    background-color:  #E70303;
+}  
+
+
+/*after the NO button is clicked*/
+
+.warning-popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.warning-popup-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+}
+
+.warning-popup-ok,
+.warning-popup-cancel{
+  background-color: #143F7A;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/* .warning-popup-ok:hover,
+.warning-popup-cancel:hover{
+  background-color: #143F7A;
+} */
+
+

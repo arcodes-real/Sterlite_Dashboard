@@ -1,0 +1,12 @@
+.example-custom-input {
+    background: url("./Calendar.svg") no-repeat right;
+    background-size: 24px;
+    background-color: white;
+    width: 160px;
+    height: 24px; 
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border-color: red; */
+  }
